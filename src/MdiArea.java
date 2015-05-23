@@ -13,10 +13,6 @@ public class MdiArea extends Pane {
     }
 
     public void addWindow(Node w) {
-        w.setOnMouseDragged(e -> {
-            System.out.println("OK");
-        });
-
         getChildren().add(w);
     }
 }
